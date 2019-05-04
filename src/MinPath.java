@@ -245,7 +245,7 @@ public class MinPath {
             houses = Integer.parseInt(args[1]);
             trees = Integer.parseInt(args[2]);
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.toString());
             printHelp();
             return false;
         }

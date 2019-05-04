@@ -4,6 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Dispenses an amount in notes certain denomination. Not the best implementation, but it works.
+ * This exercise is to practice algorithms, not Java style/correctness.
  *
  * Usage: java Bankmat [Sorted CSV denominations list] [Amount to dispense]
  *
@@ -103,7 +104,7 @@ public class Bankomat {
             }
             return true;
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.toString());
             printHelp();
         }
         return false;
